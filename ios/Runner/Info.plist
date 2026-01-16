@@ -53,6 +53,10 @@
 			<string>ur</string>
 			...
 		</array>
+		<key>UIDeviceFamily</key>
+		<array>
+			<integer>1</integer>
+		</array>
 		<key>NSAppTransportSecurity</key>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
