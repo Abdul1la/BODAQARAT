@@ -1,0 +1,54 @@
+name: aqarat_flutter_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+ 
+
+  # Network and API
+  http: ^1.2.2
+  shared_preferences: ^2.2.3
+
+  # Media handling
+  image_picker: ^1.0.4
+  flutter_local_notifications: ^17.1.2
+
+  # WebView for payments
+  webview_flutter: ^4.8.0
+
+  # Open links and external apps
+  url_launcher: ^6.3.0
+
+  
+  
+  flutter_map: ^6.1.0
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+  flutter_lints: ^3.0.2  
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+flutter_intl:
+  enabled: true
+
+

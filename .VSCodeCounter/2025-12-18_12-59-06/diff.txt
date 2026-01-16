@@ -1,0 +1,443 @@
+Date : 2025-12-18 12:59:06
+Directory : c:\Users\ZETTA\Desktop\nzaKishFinala
+Total : 276 files,  5600 codes, 647 comments, 559 blanks, all 6806 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Dart             |         99 |      3,933 |        -47 |        277 |      4,163 |
+| Python           |         36 |        824 |        686 |        211 |      1,721 |
+| PHP              |          9 |        395 |          7 |         64 |        466 |
+| JSON             |         18 |        314 |          0 |        -38 |        276 |
+| HTML             |          6 |        184 |          2 |         44 |        230 |
+| Swift            |         12 |          2 |          0 |          0 |          2 |
+| C++              |         32 |          0 |          0 |          0 |          0 |
+| CMake            |         16 |          0 |          0 |          0 |          0 |
+| Markdown         |          4 |          0 |          0 |          0 |          0 |
+| pip requirements |          4 |          0 |          0 |          0 |          0 |
+| Properties       |          4 |          0 |          0 |          0 |          0 |
+| YAML             |          4 |         -1 |         -1 |          1 |         -1 |
+| XML              |         32 |        -51 |          0 |          0 |        -51 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |        276 |      5,600 |        647 |        559 |      6,806 |
+| . (Files)                                                                                                         |          3 |         56 |         26 |         28 |        110 |
+| ..                                                                                                                |        124 |    -23,103 |     -1,525 |     -1,715 |    -26,343 |
+| ..\aqarat_flutter_project4                                                                                        |        124 |    -23,103 |     -1,525 |     -1,715 |    -26,343 |
+| ..\aqarat_flutter_project4 (Files)                                                                                |          3 |        -57 |        -27 |        -27 |       -111 |
+| ..\aqarat_flutter_project4\android                                                                                |         13 |       -210 |        -51 |        -14 |       -275 |
+| ..\aqarat_flutter_project4\android (Files)                                                                        |          1 |         -3 |          0 |         -1 |         -4 |
+| ..\aqarat_flutter_project4\android\app                                                                            |         11 |       -202 |        -51 |        -12 |       -265 |
+| ..\aqarat_flutter_project4\android\app\src                                                                        |         11 |       -202 |        -51 |        -12 |       -265 |
+| ..\aqarat_flutter_project4\android\app\src\debug                                                                  |          1 |         -3 |         -4 |         -1 |         -8 |
+| ..\aqarat_flutter_project4\android\app\src\main                                                                   |          9 |       -196 |        -43 |        -10 |       -249 |
+| ..\aqarat_flutter_project4\android\app\src\main (Files)                                                           |          1 |        -38 |        -11 |         -2 |        -51 |
+| ..\aqarat_flutter_project4\android\app\src\main\res                                                               |          8 |       -158 |        -32 |         -8 |       -198 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\drawable                                                      |          2 |        -59 |          0 |         -2 |        -61 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\drawable-v21                                                  |          1 |        -34 |          0 |         -1 |        -35 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\values                                                        |          1 |        -13 |         -9 |         -1 |        -23 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\values-night                                                  |          1 |        -13 |         -9 |         -1 |        -23 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\values-night-v31                                              |          1 |        -15 |         -7 |         -1 |        -23 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\values-v31                                                    |          1 |        -15 |         -7 |         -1 |        -23 |
+| ..\aqarat_flutter_project4\android\app\src\main\res\xml                                                           |          1 |         -9 |          0 |         -1 |        -10 |
+| ..\aqarat_flutter_project4\android\app\src\profile                                                                |          1 |         -3 |         -4 |         -1 |         -8 |
+| ..\aqarat_flutter_project4\android\gradle                                                                         |          1 |         -5 |          0 |         -1 |         -6 |
+| ..\aqarat_flutter_project4\android\gradle\wrapper                                                                 |          1 |         -5 |          0 |         -1 |         -6 |
+| ..\aqarat_flutter_project4\backend                                                                                |         15 |     -1,201 |       -211 |       -190 |     -1,602 |
+| ..\aqarat_flutter_project4\backend (Files)                                                                        |          1 |       -397 |          0 |          0 |       -397 |
+| ..\aqarat_flutter_project4\backend\app                                                                            |         14 |       -804 |       -211 |       -190 |     -1,205 |
+| ..\aqarat_flutter_project4\backend\app (Files)                                                                    |          3 |        -38 |         -1 |        -13 |        -52 |
+| ..\aqarat_flutter_project4\backend\app\db                                                                         |          1 |        -13 |          0 |         -2 |        -15 |
+| ..\aqarat_flutter_project4\backend\app\routes                                                                     |          9 |       -721 |       -206 |       -161 |     -1,088 |
+| ..\aqarat_flutter_project4\backend\app\utils                                                                      |          1 |        -32 |         -4 |        -14 |        -50 |
+| ..\aqarat_flutter_project4\images                                                                                 |          1 |         -1 |          0 |          0 |         -1 |
+| ..\aqarat_flutter_project4\ios                                                                                    |          9 |       -257 |         -4 |        -14 |       -275 |
+| ..\aqarat_flutter_project4\ios\Runner                                                                             |          8 |       -250 |         -2 |        -10 |       -262 |
+| ..\aqarat_flutter_project4\ios\Runner (Files)                                                                     |          2 |        -13 |          0 |         -3 |        -16 |
+| ..\aqarat_flutter_project4\ios\RunnerTests                                                                        |          1 |         -7 |         -2 |         -4 |        -13 |
+| ..\aqarat_flutter_project4\ios\Runner\Assets.xcassets                                                             |          4 |       -169 |          0 |         -5 |       -174 |
+| ..\aqarat_flutter_project4\ios\Runner\Assets.xcassets\AppIcon.appiconset                                          |          1 |       -122 |          0 |         -1 |       -123 |
+| ..\aqarat_flutter_project4\ios\Runner\Assets.xcassets\LaunchBackground.imageset                                   |          1 |        -21 |          0 |         -1 |        -22 |
+| ..\aqarat_flutter_project4\ios\Runner\Assets.xcassets\LaunchImage.imageset                                        |          2 |        -26 |          0 |         -3 |        -29 |
+| ..\aqarat_flutter_project4\ios\Runner\Base.lproj                                                                  |          2 |        -68 |         -2 |         -2 |        -72 |
+| ..\aqarat_flutter_project4\lib                                                                                    |         47 |    -19,263 |     -1,071 |     -1,066 |    -21,400 |
+| ..\aqarat_flutter_project4\lib (Files)                                                                            |         26 |    -15,204 |       -779 |       -596 |    -16,579 |
+| ..\aqarat_flutter_project4\lib\backend                                                                            |         11 |       -736 |        -24 |       -113 |       -873 |
+| ..\aqarat_flutter_project4\lib\generated                                                                          |          6 |     -2,634 |       -268 |       -263 |     -3,165 |
+| ..\aqarat_flutter_project4\lib\generated (Files)                                                                  |          1 |     -1,328 |       -218 |       -225 |     -1,771 |
+| ..\aqarat_flutter_project4\lib\generated\intl                                                                     |          5 |     -1,306 |        -50 |        -38 |     -1,394 |
+| ..\aqarat_flutter_project4\lib\l10n                                                                               |          4 |       -689 |          0 |        -94 |       -783 |
+| ..\aqarat_flutter_project4\linux                                                                                  |          9 |       -335 |        -37 |        -92 |       -464 |
+| ..\aqarat_flutter_project4\linux (Files)                                                                          |          1 |       -104 |          0 |        -25 |       -129 |
+| ..\aqarat_flutter_project4\linux\flutter                                                                          |          4 |       -115 |         -9 |        -27 |       -151 |
+| ..\aqarat_flutter_project4\linux\runner                                                                           |          4 |       -116 |        -28 |        -40 |       -184 |
+| ..\aqarat_flutter_project4\macos                                                                                  |          6 |       -453 |         -5 |        -17 |       -475 |
+| ..\aqarat_flutter_project4\macos\Flutter                                                                          |          1 |        -12 |         -3 |         -4 |        -19 |
+| ..\aqarat_flutter_project4\macos\Runner                                                                           |          4 |       -434 |          0 |         -9 |       -443 |
+| ..\aqarat_flutter_project4\macos\Runner (Files)                                                                   |          2 |        -23 |          0 |         -7 |        -30 |
+| ..\aqarat_flutter_project4\macos\RunnerTests                                                                      |          1 |         -7 |         -2 |         -4 |        -13 |
+| ..\aqarat_flutter_project4\macos\Runner\Assets.xcassets                                                           |          1 |        -68 |          0 |         -1 |        -69 |
+| ..\aqarat_flutter_project4\macos\Runner\Assets.xcassets\AppIcon.appiconset                                        |          1 |        -68 |          0 |         -1 |        -69 |
+| ..\aqarat_flutter_project4\macos\Runner\Base.lproj                                                                |          1 |       -343 |          0 |         -1 |       -344 |
+| ..\aqarat_flutter_project4\test                                                                                   |          1 |        -14 |        -10 |         -7 |        -31 |
+| ..\aqarat_flutter_project4\web                                                                                    |          2 |        -54 |        -15 |         -6 |        -75 |
+| ..\aqarat_flutter_project4\website                                                                                |          4 |       -575 |          0 |        -94 |       -669 |
+| ..\aqarat_flutter_project4\windows                                                                                |         14 |       -683 |        -94 |       -188 |       -965 |
+| ..\aqarat_flutter_project4\windows (Files)                                                                        |          1 |        -89 |          0 |        -20 |       -109 |
+| ..\aqarat_flutter_project4\windows\flutter                                                                        |          4 |       -132 |         -9 |        -29 |       -170 |
+| ..\aqarat_flutter_project4\windows\runner                                                                         |          9 |       -462 |        -85 |       -139 |       -686 |
+| android                                                                                                           |         14 |        709 |         53 |        128 |        890 |
+| android (Files)                                                                                                   |          1 |          3 |          0 |          1 |          4 |
+| android\app                                                                                                       |         11 |        153 |         51 |         12 |        216 |
+| android\app\src                                                                                                   |         11 |        153 |         51 |         12 |        216 |
+| android\app\src\debug                                                                                             |          1 |          3 |          4 |          1 |          8 |
+| android\app\src\main                                                                                              |          9 |        147 |         43 |         10 |        200 |
+| android\app\src\main (Files)                                                                                      |          1 |         39 |         11 |          2 |         52 |
+| android\app\src\main\res                                                                                          |          8 |        108 |         32 |          8 |        148 |
+| android\app\src\main\res\drawable                                                                                 |          2 |         34 |          0 |          2 |         36 |
+| android\app\src\main\res\drawable-v21                                                                             |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\values                                                                                   |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night                                                                             |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night-v31                                                                         |          1 |         15 |          7 |          1 |         23 |
+| android\app\src\main\res\values-v31                                                                               |          1 |         15 |          7 |          1 |         23 |
+| android\app\src\main\res\xml                                                                                      |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\profile                                                                                           |          1 |          3 |          4 |          1 |          8 |
+| android\build                                                                                                     |          1 |        548 |          2 |        114 |        664 |
+| android\build\reports                                                                                             |          1 |        548 |          2 |        114 |        664 |
+| android\build\reports\problems                                                                                    |          1 |        548 |          2 |        114 |        664 |
+| android\gradle                                                                                                    |          1 |          5 |          0 |          1 |          6 |
+| android\gradle\wrapper                                                                                            |          1 |          5 |          0 |          1 |          6 |
+| backend                                                                                                           |         25 |      2,025 |        897 |        401 |      3,323 |
+| backend (Files)                                                                                                   |          1 |        397 |          0 |          0 |        397 |
+| backend\app                                                                                                       |         24 |      1,628 |        897 |        401 |      2,926 |
+| backend\app (Files)                                                                                               |          3 |         46 |          1 |         13 |         60 |
+| backend\app\cleanup                                                                                               |          1 |         31 |          3 |          9 |         43 |
+| backend\app\db                                                                                                    |          1 |         13 |          9 |          4 |         26 |
+| backend\app\routes                                                                                                |         17 |      1,494 |        880 |        358 |      2,732 |
+| backend\app\utils                                                                                                 |          2 |         44 |          4 |         17 |         65 |
+| flutter_fib_api                                                                                                   |          9 |        395 |          7 |         64 |        466 |
+| images                                                                                                            |          1 |          1 |          0 |          0 |          1 |
+| ios                                                                                                               |          9 |        257 |          4 |         14 |        275 |
+| ios\Runner                                                                                                        |          8 |        250 |          2 |         10 |        262 |
+| ios\Runner (Files)                                                                                                |          2 |         13 |          0 |          3 |         16 |
+| ios\RunnerTests                                                                                                   |          1 |          7 |          2 |          4 |         13 |
+| ios\Runner\Assets.xcassets                                                                                        |          4 |        169 |          0 |          5 |        174 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                                     |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchBackground.imageset                                                              |          1 |         21 |          0 |          1 |         22 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                                   |          2 |         26 |          0 |          3 |         29 |
+| ios\Runner\Base.lproj                                                                                             |          2 |         68 |          2 |          2 |         72 |
+| lib                                                                                                               |         58 |     23,510 |      1,024 |      1,305 |     25,839 |
+| lib (Files)                                                                                                       |         31 |     17,826 |        656 |        768 |     19,250 |
+| lib\backend                                                                                                       |         17 |      1,012 |         52 |        170 |      1,234 |
+| lib\generated                                                                                                     |          6 |      3,669 |        316 |        311 |      4,296 |
+| lib\generated (Files)                                                                                             |          1 |      1,682 |        266 |        273 |      2,221 |
+| lib\generated\intl                                                                                                |          5 |      1,987 |         50 |         38 |      2,075 |
+| lib\l10n                                                                                                          |          4 |      1,003 |          0 |         56 |      1,059 |
+| linux                                                                                                             |          9 |        335 |         37 |         92 |        464 |
+| linux (Files)                                                                                                     |          1 |        104 |          0 |         25 |        129 |
+| linux\flutter                                                                                                     |          4 |        115 |          9 |         27 |        151 |
+| linux\runner                                                                                                      |          4 |        116 |         28 |         40 |        184 |
+| macos                                                                                                             |          6 |        455 |          5 |         17 |        477 |
+| macos\Flutter                                                                                                     |          1 |         14 |          3 |          4 |         21 |
+| macos\Runner                                                                                                      |          4 |        434 |          0 |          9 |        443 |
+| macos\Runner (Files)                                                                                              |          2 |         23 |          0 |          7 |         30 |
+| macos\RunnerTests                                                                                                 |          1 |          7 |          2 |          4 |         13 |
+| macos\Runner\Assets.xcassets                                                                                      |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Assets.xcassets\AppIcon.appiconset                                                                   |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Base.lproj                                                                                           |          1 |        343 |          0 |          1 |        344 |
+| test                                                                                                              |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                               |          2 |         54 |         15 |          6 |         75 |
+| website                                                                                                           |          1 |        209 |          0 |         24 |        233 |
+| windows                                                                                                           |         14 |        683 |         94 |        188 |        965 |
+| windows (Files)                                                                                                   |          1 |         89 |          0 |         20 |        109 |
+| windows\flutter                                                                                                   |          4 |        132 |          9 |         29 |        170 |
+| windows\runner                                                                                                    |          9 |        462 |         85 |        139 |        686 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                          | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\README.md                                                          | Markdown         |        -10 |          0 |         -7 |        -17 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\analysis_options.yaml                                              | YAML             |         -3 |        -22 |         -4 |        -29 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\debug\AndroidManifest.xml                          | XML              |         -3 |         -4 |         -1 |         -8 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\AndroidManifest.xml                           | XML              |        -38 |        -11 |         -2 |        -51 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable-v21\launch_background.xml        | XML              |        -34 |          0 |         -1 |        -35 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable\android12splash.xml              | XML              |        -25 |          0 |         -1 |        -26 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable\launch_background.xml            | XML              |        -34 |          0 |         -1 |        -35 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\values-night-v31\styles.xml               | XML              |        -15 |         -7 |         -1 |        -23 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\values-night\styles.xml                   | XML              |        -13 |         -9 |         -1 |        -23 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\values-v31\styles.xml                     | XML              |        -15 |         -7 |         -1 |        -23 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\values\styles.xml                         | XML              |        -13 |         -9 |         -1 |        -23 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\xml\network_security_config.xml           | XML              |         -9 |          0 |         -1 |        -10 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\profile\AndroidManifest.xml                        | XML              |         -3 |         -4 |         -1 |         -8 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\gradle.properties                                          | Properties       |         -3 |          0 |         -1 |         -4 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\gradle\wrapper\gradle-wrapper.properties                   | Properties       |         -5 |          0 |         -1 |         -6 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\__init__.py                                            | Python           |          0 |          0 |         -1 |         -1 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\db\database.py                                         | Python           |        -13 |          0 |         -2 |        -15 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\main.py                                                | Python           |        -30 |         -1 |        -11 |        -42 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\requirements.txt                                       | pip requirements |         -8 |          0 |         -1 |         -9 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\authentication.py                               | Python           |       -314 |        -31 |        -77 |       -422 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\bookmark.py                                     | Python           |        -31 |          0 |         -8 |        -39 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\db_routes.py                                    | Python           |        -15 |          0 |         -3 |        -18 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\email.py                                        | Python           |        -35 |        -26 |         -9 |        -70 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\postadd.py                                      | Python           |        -96 |         -8 |        -36 |       -140 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\posts.py                                        | Python           |       -125 |        -36 |        -10 |       -171 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\purches.py                                      | Python           |        -39 |          0 |         -6 |        -45 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\search.py                                       | Python           |        -38 |       -105 |         -4 |       -147 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\routes\users.py                                        | Python           |        -28 |          0 |         -8 |        -36 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\app\utils\bunny_upload.py                                  | Python           |        -32 |         -4 |        -14 |        -50 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\backend\requirements.txt                                           | pip requirements |       -397 |          0 |          0 |       -397 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\images\Bod-logo(512x512)-White.svg                                 | XML              |         -1 |          0 |          0 |         -1 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\RunnerTests\RunnerTests.swift                                  | Swift            |         -7 |         -2 |         -4 |        -13 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\AppDelegate.swift                                       | Swift            |        -12 |          0 |         -2 |        -14 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json        | JSON             |       -122 |          0 |         -1 |       -123 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Assets.xcassets\LaunchBackground.imageset\Contents.json | JSON             |        -21 |          0 |         -1 |        -22 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json      | JSON             |        -23 |          0 |         -1 |        -24 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md          | Markdown         |         -3 |          0 |         -2 |         -5 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Base.lproj\LaunchScreen.storyboard                      | XML              |        -43 |         -1 |         -1 |        -45 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Base.lproj\Main.storyboard                              | XML              |        -25 |         -1 |         -1 |        -27 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\ios\Runner\Runner-Bridging-Header.h                                | C++              |         -1 |          0 |         -1 |         -2 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\AboutUs.dart                                                   | Dart             |       -299 |         -4 |        -11 |       -314 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\ContactUs.dart                                                 | Dart             |       -212 |          0 |         -7 |       -219 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\EditProfile.dart                                               | Dart             |       -400 |        -77 |        -32 |       -509 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\EditProfileInfoForOffice.dart                                  | Dart             |       -357 |         -6 |        -16 |       -379 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\HomePage.dart                                                  | Dart             |     -1,591 |        -43 |        -52 |     -1,686 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\OfficePostShow.dart                                            | Dart             |       -638 |        -29 |        -10 |       -677 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\Office_Profile.dart                                            | Dart             |       -518 |        -26 |        -21 |       -565 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\OfficialProfileSetting.dart                                    | Dart             |       -639 |        -29 |        -26 |       -694 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\Plans.dart                                                     | Dart             |       -192 |         -8 |        -18 |       -218 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\PrivacyPolicy.dart                                             | Dart             |       -135 |         -3 |         -9 |       -147 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\SignUpUser.dart                                                | Dart             |       -406 |          0 |        -13 |       -419 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\UserHomePage.dart                                              | Dart             |     -2,290 |       -348 |        -66 |     -2,704 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\askForLogin.dart                                               | Dart             |       -225 |         -3 |         -7 |       -235 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\bookmark.dart                                          | Dart             |        -31 |          0 |         -7 |        -38 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\email.dart                                             | Dart             |        -27 |          0 |         -5 |        -32 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\get_post.dart                                          | Dart             |       -192 |         -3 |        -15 |       -210 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\get_user.dart                                          | Dart             |        -56 |         -1 |         -9 |        -66 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\login.dart                                             | Dart             |        -49 |         -1 |         -8 |        -58 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\picRequest.dart                                        | Dart             |        -15 |         -1 |         -4 |        -20 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\postadd.dart                                           | Dart             |        -51 |         -8 |         -8 |        -67 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\purches.dart                                           | Dart             |        -75 |          0 |         -8 |        -83 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\register.dart                                          | Dart             |        -50 |          0 |         -7 |        -57 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\search.dart                                            | Dart             |       -149 |         -6 |        -33 |       -188 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\backend\userinfo.dart                                          | Dart             |        -41 |         -4 |         -9 |        -54 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_all.dart                               | Dart             |        -61 |        -10 |        -10 |        -81 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_ar.dart                                | Dart             |       -364 |        -10 |         -7 |       -381 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_en.dart                                | Dart             |       -391 |        -10 |         -7 |       -408 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_ps.dart                                | Dart             |       -404 |        -10 |         -7 |       -421 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_ur.dart                                | Dart             |        -86 |        -10 |         -7 |       -103 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\l10n.dart                                            | Dart             |     -1,328 |       -218 |       -225 |     -1,771 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\global.dart                                                    | Dart             |        -41 |          0 |         -9 |        -50 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\ifAqarOffice.dart                                              | Dart             |       -184 |        -10 |         -6 |       -200 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_ar.arb                                               | JSON             |       -206 |          0 |        -27 |       -233 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_en.arb                                               | JSON             |       -212 |          0 |        -34 |       -246 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_ps.arb                                               | JSON             |       -214 |          0 |        -20 |       -234 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_ur.arb                                               | JSON             |        -57 |          0 |        -13 |        -70 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\login.dart                                                     | Dart             |       -411 |         -3 |        -16 |       -430 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\main.dart                                                      | Dart             |       -140 |          0 |        -10 |       -150 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\map.dart                                                       | Dart             |       -126 |          0 |        -11 |       -137 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\officeAccountInfo.dart                                         | Dart             |       -312 |          0 |        -10 |       -322 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\officeHomePage.dart                                            | Dart             |     -3,153 |       -104 |        -96 |     -3,353 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\officeLogin.dart                                               | Dart             |       -299 |          0 |         -8 |       -307 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\postsDetail.dart                                               | Dart             |       -698 |          0 |        -14 |       -712 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\requestPicture.dart                                            | Dart             |       -364 |         -1 |        -19 |       -384 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\search_page.dart                                               | Dart             |       -953 |        -83 |        -65 |     -1,101 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\subscription_pageOne.dart                                      | Dart             |       -453 |         -2 |        -41 |       -496 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\warningLogOutPage.dart                                         | Dart             |       -168 |          0 |         -3 |       -171 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\CMakeLists.txt                                               | CMake            |       -104 |          0 |        -25 |       -129 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\flutter\CMakeLists.txt                                       | CMake            |        -79 |          0 |        -10 |        -89 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\flutter\generated_plugin_registrant.cc                       | C++              |        -11 |         -4 |         -5 |        -20 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\flutter\generated_plugin_registrant.h                        | C++              |         -5 |         -5 |         -6 |        -16 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\flutter\generated_plugins.cmake                              | CMake            |        -20 |          0 |         -6 |        -26 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\runner\CMakeLists.txt                                        | CMake            |        -21 |          0 |         -6 |        -27 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\runner\main.cc                                               | C++              |         -5 |          0 |         -2 |         -7 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\runner\my_application.cc                                     | C++              |        -83 |        -21 |        -27 |       -131 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\linux\runner\my_application.h                                      | C++              |         -7 |         -7 |         -5 |        -19 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\Flutter\GeneratedPluginRegistrant.swift                      | Swift            |        -12 |         -3 |         -4 |        -19 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\RunnerTests\RunnerTests.swift                                | Swift            |         -7 |         -2 |         -4 |        -13 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\Runner\AppDelegate.swift                                     | Swift            |        -11 |          0 |         -3 |        -14 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json      | JSON             |        -68 |          0 |         -1 |        -69 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\Runner\Base.lproj\MainMenu.xib                               | XML              |       -343 |          0 |         -1 |       -344 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\macos\Runner\MainFlutterWindow.swift                               | Swift            |        -12 |          0 |         -4 |        -16 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\pubspec.yaml                                                       | YAML             |        -44 |         -5 |        -16 |        -65 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\test\widget_test.dart                                              | Dart             |        -14 |        -10 |         -7 |        -31 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\web\index.html                                                     | HTML             |        -19 |        -15 |         -5 |        -39 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\web\manifest.json                                                  | JSON             |        -35 |          0 |         -1 |        -36 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\website\Bod-logo(512x512)-White.svg                                | XML              |         -1 |          0 |          0 |         -1 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\website\Bod-logo(512x512).svg                                      | XML              |         -1 |          0 |          0 |         -1 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\website\index.html                                                 | HTML             |       -183 |          0 |        -28 |       -211 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\website\registerPage.html                                          | HTML             |       -390 |          0 |        -66 |       -456 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\CMakeLists.txt                                             | CMake            |        -89 |          0 |        -20 |       -109 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\flutter\CMakeLists.txt                                     | CMake            |        -98 |          0 |        -12 |       -110 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\flutter\generated_plugin_registrant.cc                     | C++              |         -9 |         -4 |         -5 |        -18 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\flutter\generated_plugin_registrant.h                      | C++              |         -5 |         -5 |         -6 |        -16 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\flutter\generated_plugins.cmake                            | CMake            |        -20 |          0 |         -6 |        -26 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\CMakeLists.txt                                      | CMake            |        -34 |          0 |         -7 |        -41 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\flutter_window.cpp                                  | C++              |        -49 |         -7 |        -16 |        -72 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\flutter_window.h                                    | C++              |        -20 |         -5 |         -9 |        -34 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\main.cpp                                            | C++              |        -30 |         -4 |        -10 |        -44 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\resource.h                                          | C++              |         -9 |         -6 |         -2 |        -17 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\utils.cpp                                           | C++              |        -54 |         -2 |        -10 |        -66 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\utils.h                                             | C++              |         -8 |         -6 |         -6 |        -20 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\win32_window.cpp                                    | C++              |       -210 |        -24 |        -55 |       -289 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\windows\runner\win32_window.h                                      | C++              |        -48 |        -31 |        -24 |       -103 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\README.md                                                                    | Markdown         |         10 |          0 |          7 |         17 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\analysis_options.yaml                                                        | YAML             |          3 |         22 |          4 |         29 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\debug\AndroidManifest.xml                                    | XML              |          3 |          4 |          1 |          8 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\AndroidManifest.xml                                     | XML              |         39 |         11 |          2 |         52 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\drawable-v21\launch_background.xml                  | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\drawable\android12splash.xml                        | XML              |         25 |          0 |          1 |         26 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\drawable\launch_background.xml                      | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\values-night-v31\styles.xml                         | XML              |         15 |          7 |          1 |         23 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\values-night\styles.xml                             | XML              |         13 |          9 |          1 |         23 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\values-v31\styles.xml                               | XML              |         15 |          7 |          1 |         23 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\values\styles.xml                                   | XML              |         13 |          9 |          1 |         23 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\main\res\xml\network_security_config.xml                     | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\app\src\profile\AndroidManifest.xml                                  | XML              |          3 |          4 |          1 |          8 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\build\reports\problems\problems-report.html                          | HTML             |        548 |          2 |        114 |        664 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\gradle.properties                                                    | Properties       |          3 |          0 |          1 |          4 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\android\gradle\wrapper\gradle-wrapper.properties                             | Properties       |          5 |          0 |          1 |          6 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\__init__.py                                                      | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\cleanup\delete_expired_posts.py                                  | Python           |         31 |          3 |          9 |         43 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\db\database.py                                                   | Python           |         13 |          9 |          4 |         26 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\main.py                                                          | Python           |         38 |          1 |         11 |         50 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\requirements.txt                                                 | pip requirements |          8 |          0 |          1 |          9 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\admin.py                                                  | Python           |        174 |         45 |         51 |        270 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\authentication.py                                         | Python           |        373 |         38 |         93 |        504 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\bookmark.py                                               | Python           |         31 |          0 |          8 |         39 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\db_routes.py                                              | Python           |         15 |          0 |          3 |         18 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\email.py                                                  | Python           |         35 |         26 |          9 |         70 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\emailRequest.py                                           | Python           |        183 |        166 |         27 |        376 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\forgetpass.py                                             | Python           |         54 |        205 |         19 |        278 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\payment.py                                                | Python           |         55 |          0 |         13 |         68 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\postadd.py                                                | Python           |         96 |          8 |         36 |        140 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\postavailable.py                                          | Python           |         59 |         61 |         16 |        136 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\posts.py                                                  | Python           |        129 |         36 |         12 |        177 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\purches.py                                                | Python           |         39 |          0 |          6 |         45 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\reklam.py                                                 | Python           |         69 |          4 |         19 |         92 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\search.py                                                 | Python           |         45 |        233 |          9 |        287 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\subscriptionActivate.py                                   | Python           |         49 |          5 |         11 |         65 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\subscriptions.py                                          | Python           |         60 |         53 |         18 |        131 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\routes\users.py                                                  | Python           |         28 |          0 |          8 |         36 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\utils\bunny_upload.py                                            | Python           |         32 |          4 |         14 |         50 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\app\utils\email.py                                                   | Python           |         12 |          0 |          3 |         15 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\backend\requirements.txt                                                     | pip requirements |        397 |          0 |          0 |        397 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\cancel_payment.php                                           | PHP              |         26 |          0 |          5 |         31 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\check_status.php                                             | PHP              |         25 |          0 |          5 |         30 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\cheking.php                                                  | PHP              |          8 |          0 |          2 |         10 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\connect.php                                                  | PHP              |          7 |          0 |         15 |         22 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\create_payment.php                                           | PHP              |         52 |          2 |          9 |         63 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\get_token.php                                                | PHP              |         24 |          1 |          6 |         31 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\payment-callback.php                                         | PHP              |         13 |          2 |          4 |         19 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\refund_payment.php                                           | PHP              |         26 |          0 |          5 |         31 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\flutter_fib_api\success.php                                                  | PHP              |        214 |          2 |         13 |        229 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\images\Bod-logo(512x512)-White.svg                                           | XML              |          1 |          0 |          0 |          1 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\RunnerTests\RunnerTests.swift                                            | Swift            |          7 |          2 |          4 |         13 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\AppDelegate.swift                                                 | Swift            |         12 |          0 |          2 |         14 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json                  | JSON             |        122 |          0 |          1 |        123 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Assets.xcassets\LaunchBackground.imageset\Contents.json           | JSON             |         21 |          0 |          1 |         22 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json                | JSON             |         23 |          0 |          1 |         24 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md                    | Markdown         |          3 |          0 |          2 |          5 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Base.lproj\LaunchScreen.storyboard                                | XML              |         43 |          1 |          1 |         45 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Base.lproj\Main.storyboard                                        | XML              |         25 |          1 |          1 |         27 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\ios\Runner\Runner-Bridging-Header.h                                          | C++              |          1 |          0 |          1 |          2 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\AboutUs.dart                                                             | Dart             |        167 |        204 |          8 |        379 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\ContactUs.dart                                                           | Dart             |        212 |          0 |          7 |        219 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\EditProfile.dart                                                         | Dart             |        400 |         77 |         32 |        509 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\EditProfileInfoForOffice.dart                                            | Dart             |        424 |         12 |         30 |        466 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\HomePage.dart                                                            | Dart             |      1,725 |         42 |         59 |      1,826 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\OfficePostShow.dart                                                      | Dart             |        753 |          0 |         19 |        772 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\Office_Profile.dart                                                      | Dart             |        809 |          9 |         36 |        854 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\OfficialProfileSetting.dart                                              | Dart             |        847 |          1 |         37 |        885 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\Plans.dart                                                               | Dart             |        204 |          8 |         21 |        233 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\PrivacyPolicy.dart                                                       | Dart             |        135 |          3 |          9 |        147 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\SignUpUser.dart                                                          | Dart             |        501 |          1 |         21 |        523 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\UserHomePage.dart                                                        | Dart             |      2,403 |         53 |         67 |      2,523 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\app_theme.dart                                                           | Dart             |         69 |          0 |          8 |         77 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\askForLogin.dart                                                         | Dart             |        227 |          3 |          7 |        237 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\available.dart                                                   | Dart             |         48 |          6 |         10 |         64 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\bookmark.dart                                                    | Dart             |         31 |          0 |          7 |         38 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\email.dart                                                       | Dart             |         27 |          0 |          5 |         32 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\emailRequest.dart                                                | Dart             |         36 |          0 |          6 |         42 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\forgetpass.dart                                                  | Dart             |         17 |          0 |          5 |         22 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\get_post.dart                                                    | Dart             |        223 |          6 |         15 |        244 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\get_user.dart                                                    | Dart             |         56 |          1 |          9 |         66 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\login.dart                                                       | Dart             |         71 |          2 |         13 |         86 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\payment.dart                                                     | Dart             |         52 |          9 |         10 |         71 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\picRequest.dart                                                  | Dart             |         15 |          1 |          4 |         20 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\postadd.dart                                                     | Dart             |         51 |          8 |          8 |         67 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\purches.dart                                                     | Dart             |         75 |          0 |          8 |         83 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\register.dart                                                    | Dart             |         73 |          2 |         14 |         89 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\reklam.dart                                                      | Dart             |         14 |          0 |          3 |         17 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\search.dart                                                      | Dart             |        160 |          6 |         33 |        199 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\subscriptionActivate.dart                                        | Dart             |          0 |          7 |          2 |          9 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\backend\userinfo.dart                                                    | Dart             |         63 |          4 |         18 |         85 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\flutter_notification.dart                                                | Dart             |         88 |          0 |         14 |        102 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\intl\messages_all.dart                                         | Dart             |         61 |         10 |         10 |         81 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\intl\messages_ar.dart                                          | Dart             |        454 |         10 |          7 |        471 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\intl\messages_en.dart                                          | Dart             |        509 |         10 |          7 |        526 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\intl\messages_ps.dart                                          | Dart             |        482 |         10 |          7 |        499 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\intl\messages_ur.dart                                          | Dart             |        481 |         10 |          7 |        498 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\generated\l10n.dart                                                      | Dart             |      1,682 |        266 |        273 |      2,221 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\global.dart                                                              | Dart             |         60 |          0 |         11 |         71 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\ifAqarOffice.dart                                                        | Dart             |        186 |         10 |          7 |        203 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\l10n\intl_ar.arb                                                         | JSON             |        248 |          0 |          6 |        254 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\l10n\intl_en.arb                                                         | JSON             |        260 |          0 |         29 |        289 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\l10n\intl_ps.arb                                                         | JSON             |        249 |          0 |          5 |        254 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\l10n\intl_ur.arb                                                         | JSON             |        246 |          0 |         16 |        262 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\login.dart                                                               | Dart             |        537 |          4 |         24 |        565 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\main.dart                                                                | Dart             |        202 |          0 |         13 |        215 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\map.dart                                                                 | Dart             |        126 |          0 |         11 |        137 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\navigation.dart                                                          | Dart             |          2 |          0 |          2 |          4 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\officeAccountInfo.dart                                                   | Dart             |        407 |          0 |         18 |        425 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\officeHomePage.dart                                                      | Dart             |      3,579 |        139 |        105 |      3,823 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\officeLogin.dart                                                         | Dart             |        299 |          0 |          8 |        307 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\postsDetail.dart                                                         | Dart             |        776 |          2 |         18 |        796 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\requestPicture.dart                                                      | Dart             |        364 |          1 |         19 |        384 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\search_page.dart                                                         | Dart             |        846 |         77 |         54 |        977 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\subscriptionState.dart                                                   | Dart             |        492 |          0 |         26 |        518 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\subscription_pageOne.dart                                                | Dart             |        752 |         10 |         68 |        830 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\theme_settings_page.dart                                                 | Dart             |         70 |          0 |          6 |         76 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\lib\warningLogOutPage.dart                                                   | Dart             |        164 |          0 |          3 |        167 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\CMakeLists.txt                                                         | CMake            |        104 |          0 |         25 |        129 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\flutter\CMakeLists.txt                                                 | CMake            |         79 |          0 |         10 |         89 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\flutter\generated_plugin_registrant.cc                                 | C++              |         11 |          4 |          5 |         20 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\flutter\generated_plugin_registrant.h                                  | C++              |          5 |          5 |          6 |         16 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\flutter\generated_plugins.cmake                                        | CMake            |         20 |          0 |          6 |         26 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\runner\CMakeLists.txt                                                  | CMake            |         21 |          0 |          6 |         27 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\runner\main.cc                                                         | C++              |          5 |          0 |          2 |          7 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\runner\my_application.cc                                               | C++              |         83 |         21 |         27 |        131 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\linux\runner\my_application.h                                                | C++              |          7 |          7 |          5 |         19 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\Flutter\GeneratedPluginRegistrant.swift                                | Swift            |         14 |          3 |          4 |         21 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\RunnerTests\RunnerTests.swift                                          | Swift            |          7 |          2 |          4 |         13 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\Runner\AppDelegate.swift                                               | Swift            |         11 |          0 |          3 |         14 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json                | JSON             |         68 |          0 |          1 |         69 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\Runner\Base.lproj\MainMenu.xib                                         | XML              |        343 |          0 |          1 |        344 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\macos\Runner\MainFlutterWindow.swift                                         | Swift            |         12 |          0 |          4 |         16 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\pubspec.yaml                                                                 | YAML             |         43 |          4 |         17 |         64 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\test\widget_test.dart                                                        | Dart             |         14 |         10 |          7 |         31 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\web\index.html                                                               | HTML             |         19 |         15 |          5 |         39 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\web\manifest.json                                                            | JSON             |         35 |          0 |          1 |         36 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\website\import_Reklam_image.html                                             | HTML             |        209 |          0 |         24 |        233 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\CMakeLists.txt                                                       | CMake            |         89 |          0 |         20 |        109 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\flutter\CMakeLists.txt                                               | CMake            |         98 |          0 |         12 |        110 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\flutter\generated_plugin_registrant.cc                               | C++              |          9 |          4 |          5 |         18 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\flutter\generated_plugin_registrant.h                                | C++              |          5 |          5 |          6 |         16 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\flutter\generated_plugins.cmake                                      | CMake            |         20 |          0 |          6 |         26 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\CMakeLists.txt                                                | CMake            |         34 |          0 |          7 |         41 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\flutter_window.cpp                                            | C++              |         49 |          7 |         16 |         72 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\flutter_window.h                                              | C++              |         20 |          5 |          9 |         34 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\main.cpp                                                      | C++              |         30 |          4 |         10 |         44 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\resource.h                                                    | C++              |          9 |          6 |          2 |         17 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\utils.cpp                                                     | C++              |         54 |          2 |         10 |         66 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\utils.h                                                       | C++              |          8 |          6 |          6 |         20 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\win32_window.cpp                                              | C++              |        210 |         24 |         55 |        289 |
+| c:\Users\ZETTA\Desktop\nzaKishFinala\windows\runner\win32_window.h                                                | C++              |         48 |         31 |         24 |        103 |
+| Total                                                                                                             |                  |      5,600 |        647 |        559 |      6,806 |
++-------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

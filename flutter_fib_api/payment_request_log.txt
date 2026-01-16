@@ -1,0 +1,1 @@
+2025-10-24 11:29:33 - Request: {"amount":1000,"currency":"IQD","description":"Payment to Aqarat","payer_phone":"7504050496","receiver_account":"7301111223","callback_url":"http:\/\/172.19.80.1\/flutter_test_api\/payment-callback.php"}

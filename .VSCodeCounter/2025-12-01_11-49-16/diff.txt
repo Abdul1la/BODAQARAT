@@ -1,0 +1,61 @@
+Date : 2025-12-01 11:49:16
+Directory : c:\Users\ZETTA\Desktop\aqarat_flutter_project4
+Total : 22 files,  2021 codes, -37 comments, 78 blanks, all 2062 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         16 |      1,723 |        -37 |         68 |      1,754 |
+| JSON     |          3 |        223 |          0 |          9 |        232 |
+| XML      |          3 |         75 |          0 |          1 |         76 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         22 |      2,021 |        -37 |         78 |      2,062 |
+| android                                                                                                    |          3 |         75 |          0 |          1 |         76 |
+| android\app                                                                                                |          3 |         75 |          0 |          1 |         76 |
+| android\app\src                                                                                            |          3 |         75 |          0 |          1 |         76 |
+| android\app\src\main                                                                                       |          3 |         75 |          0 |          1 |         76 |
+| android\app\src\main\res                                                                                   |          3 |         75 |          0 |          1 |         76 |
+| android\app\src\main\res\drawable                                                                          |          2 |         50 |          0 |          1 |         51 |
+| android\app\src\main\res\drawable-v21                                                                      |          1 |         25 |          0 |          0 |         25 |
+| lib                                                                                                        |         19 |      1,946 |        -37 |         77 |      1,986 |
+| lib (Files)                                                                                                |         12 |      1,113 |        -60 |         45 |      1,098 |
+| lib\generated                                                                                              |          4 |        610 |         23 |         23 |        656 |
+| lib\generated (Files)                                                                                      |          1 |        154 |         23 |         23 |        200 |
+| lib\generated\intl                                                                                         |          3 |        456 |          0 |          0 |        456 |
+| lib\l10n                                                                                                   |          3 |        223 |          0 |          9 |        232 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                   | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable-v21\launch_background.xml | XML      |         25 |          0 |          0 |         25 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable\android12splash.xml       | XML      |         25 |          0 |          1 |         26 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\android\app\src\main\res\drawable\launch_background.xml     | XML      |         25 |          0 |          0 |         25 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\AboutUs.dart                                            | Dart     |        299 |          4 |         11 |        314 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\ContactUs.dart                                          | Dart     |        212 |          0 |          7 |        219 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\HomePage.dart                                           | Dart     |        107 |          1 |          3 |        111 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\PrivacyPolicy.dart                                      | Dart     |        135 |          3 |          9 |        147 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\SignUpUser.dart                                         | Dart     |        -84 |        -18 |         -2 |       -104 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\UserHomePage.dart                                       | Dart     |         44 |         -4 |          3 |         43 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\askForLogin.dart                                        | Dart     |         61 |         -2 |          1 |         60 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_ar.dart                         | Dart     |        189 |          0 |          0 |        189 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_en.dart                         | Dart     |         53 |          0 |          0 |         53 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\intl\messages_ps.dart                         | Dart     |        214 |          0 |          0 |        214 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\generated\l10n.dart                                     | Dart     |        154 |         23 |         23 |        200 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_ar.arb                                        | JSON     |         97 |          0 |          6 |        103 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_en.arb                                        | JSON     |         23 |          0 |         -4 |         19 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\l10n\intl_ps.arb                                        | JSON     |        103 |          0 |          7 |        110 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\login.dart                                              | Dart     |         68 |         -4 |          0 |         64 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\main.dart                                               | Dart     |        112 |          0 |          5 |        117 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\officeHomePage.dart                                     | Dart     |         43 |         -4 |          2 |         41 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\officeLogin.dart                                        | Dart     |         56 |         -7 |          2 |         51 |
+| c:\Users\ZETTA\Desktop\aqarat_flutter_project4\lib\postsDetail.dart                                        | Dart     |         60 |        -29 |          4 |         35 |
+| Total                                                                                                      |          |      2,021 |        -37 |         78 |      2,062 |
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
