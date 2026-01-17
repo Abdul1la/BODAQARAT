@@ -708,6 +708,8 @@ class _EditProfilePageState extends State<EditProfilePage> {
   }
 
   Future<void> _deleteAccount(BuildContext context) async {
+    if (!mounted) return;
+    
     // Show loading indicator
     showDialog(
       context: context,
@@ -720,28 +722,36 @@ class _EditProfilePageState extends State<EditProfilePage> {
       
       if (!mounted) return;
       
-      Navigator.of(context).pop(); // Close loading dialog
+      // Close loading dialog before any other operations
+      Navigator.of(context, rootNavigator: true).pop();
       
       if (result["success"] == true) {
         // Clear user session
         await clearUserSession();
         
-        // Show success message
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text("Account deleted successfully"),
-            backgroundColor: Colors.green,
-            duration: Duration(seconds: 2),
-          ),
-        );
+        // Navigate to home/login screen immediately
+        // This prevents any RefreshIndicator from previous screens from showing
+        if (mounted) {
+          Navigator.of(context, rootNavigator: true).pushAndRemoveUntil(
+            MaterialPageRoute(
+              builder: (context) => ChangeLocale(myLocaly: widget.MyLocaly),
+            ),
+            (route) => false,
+          );
+        }
         
-        // Navigate to home/login screen
-        Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(
-            builder: (context) => ChangeLocale(myLocaly: widget.MyLocaly),
-          ),
-          (route) => false,
-        );
+        // Show success message after navigation
+        Future.delayed(const Duration(milliseconds: 300), () {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text("Account deleted successfully"),
+                backgroundColor: Colors.green,
+                duration: Duration(seconds: 2),
+              ),
+            );
+          }
+        });
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -752,7 +762,10 @@ class _EditProfilePageState extends State<EditProfilePage> {
       }
     } catch (e) {
       if (!mounted) return;
-      Navigator.of(context).pop(); // Close loading dialog
+      // Ensure dialog is closed even on error
+      if (Navigator.of(context, rootNavigator: true).canPop()) {
+        Navigator.of(context, rootNavigator: true).pop();
+      }
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text("Error: $e"),

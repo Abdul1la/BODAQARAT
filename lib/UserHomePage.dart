@@ -1136,44 +1136,6 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 const SizedBox(width: 15),
-                // Theme switcher
-                Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        const Color(0xff1E3A8A),
-                        const Color(0xff3B82F6),
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    borderRadius: BorderRadius.circular(18),
-                    boxShadow: [
-                      BoxShadow(
-                        color: const Color(0xff1E3A8A).withOpacity(0.3),
-                        blurRadius: 15,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  ),
-                  child: IconButton(
-                    icon: Icon(
-                      Theme.of(context).brightness == Brightness.dark
-                          ? Icons.light_mode
-                          : Icons.dark_mode,
-                      size: 24,
-                      color: Colors.white,
-                    ),
-                    onPressed: () {
-                      // Navigate using Navigator.of with rootNavigator
-                      Navigator.of(
-                        context,
-                        rootNavigator: true,
-                      ).pushNamed('/theme-settings');
-                    },
-                  ),
-                ),
-                const SizedBox(width: 15),
                 // language switcher
                 Container(
                   decoration: BoxDecoration(
