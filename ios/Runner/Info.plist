@@ -50,15 +50,17 @@
 			<string>en</string>
 			<string>ar</string>
 			<string>ps</string>
-			<string>ur</string>			
+			<string>ur</string>
 		</array>
 		<key>UIDeviceFamily</key>
 		<array>
 			<integer>1</integer>
 		</array>
 		<key>NSAppTransportSecurity</key>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+		</dict>
 		<key>UIStatusBarHidden</key>
 		<false/>
 	</dict>
