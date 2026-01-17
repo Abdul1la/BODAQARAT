@@ -275,6 +275,19 @@
     "TakeAnotherLook" : "جارێکی تر سەیر بکەرەوە",
     "ThereAre" : "هەن",
     "NewUpdates" : "نوێکاری نوێ چاوەڕێت دەکەن",
-    "CheckBackTodayForfreshResl": "ئەمڕۆ دووبارە سەردان بکەرەوە بۆ بینینی هەلی نوێی خانوبەرە."
-
+    "CheckBackTodayForfreshResl": "ئەمڕۆ دووبارە سەردان بکەرەوە بۆ بینینی هەلی نوێی خانوبەرە.",
+    
+    "DeleteAccount": "سڕینەوەی هەژمار",
+    "DeleteAccountTitle": "سڕینەوەی هەژمار",
+    "DeleteAccountConfirmation": "ئایا تۆ بە تەواوی دڵنیایت کە دەتەوێت هەژمارەکەت بسڕیتەوە؟",
+    "DeleteAccountWarning": "ئەم کارە ناتوانرێت هەڵوەشێنرێتەوە و بە شێوەیەکی هەمیشەیی دەسڕدرێتەوە:",
+    "DeleteAccountWarningItem1": "هەموو پۆست و لیستەکانی موڵکەکانت",
+    "DeleteAccountWarningItem2": "هەموو نیشانەکراوەکانت",
+    "DeleteAccountWarningItem3": "مێژووی بەشداریکردن و پارەدانەکانت",
+    "DeleteAccountWarningItem4": "زانیاری پرۆفایل و وێنەکانت",
+    "DeleteAccountWarningItem5": "هەموو داتای پەیوەندیدار",
+    "DeleteAccountInfo": "دوای سڕینەوە بە شێوەیەکی یەکسەر دەرچوونت دەکرێت.",
+    "YesDeleteAccount": "بەڵێ، هەژمارەکە بسڕەوە",
+    "AccountDeletedSuccessfully": "هەژمار بە سەرکەوتوویی سڕایەوە",
+    "FailedToDeleteAccount": "سڕینەوەی هەژمار سەرکەوتوو نەبوو"
 }

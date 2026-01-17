@@ -1,6 +1,7 @@
 import 'package:aqarat_flutter_project/backend/userinfo.dart';
 import 'package:aqarat_flutter_project/generated/l10n.dart';
 import 'package:aqarat_flutter_project/global.dart';
+import 'package:aqarat_flutter_project/HomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:image_picker/image_picker.dart';
@@ -520,7 +521,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         ),
                         const SizedBox(width: 8),
                         Text(
-                          "Delete Account",
+                          S.of(context).DeleteAccount,
                           style: TextStyle(
                             color: const Color(0xffDC2626),
                             fontSize: 16,
@@ -542,27 +543,135 @@ class _EditProfilePageState extends State<EditProfilePage> {
   Future<void> _showDeleteConfirmation(BuildContext context) async {
     final confirmed = await showDialog<bool>(
       context: context,
+      barrierDismissible: false,
       builder: (context) => AlertDialog(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: const Text(
-          "Delete Account",
-          style: TextStyle(fontWeight: FontWeight.bold),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        title: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: const Color(0xffDC2626).withOpacity(0.1),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                Icons.warning_amber_rounded,
+                color: Color(0xffDC2626),
+                size: 28,
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                S.of(context).DeleteAccountTitle,
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                  color: Color(0xffDC2626),
+                ),
+              ),
+            ),
+          ],
         ),
-        content: const Text(
-          "Are you sure you want to delete your account? This action cannot be undone and will permanently delete all your data, posts, and information.",
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              S.of(context).DeleteAccountConfirmation,
+              style: const TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 16,
+                color: Color(0xff111827),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              S.of(context).DeleteAccountWarning,
+              style: const TextStyle(
+                fontSize: 14,
+                color: Color(0xff6B7280),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Padding(
+              padding: const EdgeInsets.only(left: 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _buildWarningItem(S.of(context).DeleteAccountWarningItem1),
+                  _buildWarningItem(S.of(context).DeleteAccountWarningItem2),
+                  _buildWarningItem(S.of(context).DeleteAccountWarningItem3),
+                  _buildWarningItem(S.of(context).DeleteAccountWarningItem4),
+                  _buildWarningItem(S.of(context).DeleteAccountWarningItem5),
+                ],
+              ),
+            ),
+            const SizedBox(height: 16),
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: const Color(0xffFEF2F2),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(
+                  color: const Color(0xffDC2626).withOpacity(0.2),
+                ),
+              ),
+              child: Row(
+                children: [
+                  const Icon(
+                    Icons.info_outline,
+                    color: Color(0xffDC2626),
+                    size: 20,
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      S.of(context).DeleteAccountInfo,
+                      style: const TextStyle(
+                        fontSize: 13,
+                        color: Color(0xffDC2626),
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text("Cancel"),
+            style: TextButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+            ),
+            child: const Text(
+              "Cancel",
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+                color: Color(0xff6B7280),
+              ),
+            ),
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color(0xffDC2626),
               foregroundColor: Colors.white,
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
             ),
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text("Delete"),
+            child: Text(
+              S.of(context).YesDeleteAccount,
+              style: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
           ),
         ],
       ),
@@ -571,6 +680,31 @@ class _EditProfilePageState extends State<EditProfilePage> {
     if (confirmed == true && mounted) {
       await _deleteAccount(context);
     }
+  }
+
+  Widget _buildWarningItem(String text) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Row(
+        children: [
+          const Icon(
+            Icons.remove,
+            size: 16,
+            color: Color(0xffDC2626),
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              text,
+              style: const TextStyle(
+                fontSize: 13,
+                color: Color(0xff6B7280),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   Future<void> _deleteAccount(BuildContext context) async {
@@ -594,19 +728,24 @@ class _EditProfilePageState extends State<EditProfilePage> {
         
         // Show success message
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text("Account deleted successfully"),
+          SnackBar(
+            content: Text(S.of(context).AccountDeletedSuccessfully),
             backgroundColor: Colors.green,
+            duration: const Duration(seconds: 2),
           ),
         );
         
-        // Navigate to login/home screen
-        // You may need to adjust this based on your navigation structure
-        Navigator.of(context).pushNamedAndRemoveUntil('/', (route) => false);
+        // Navigate to home/login screen
+        Navigator.of(context).pushAndRemoveUntil(
+          MaterialPageRoute(
+            builder: (context) => ChangeLocale(myLocaly: widget.MyLocaly),
+          ),
+          (route) => false,
+        );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(result["message"] ?? "Failed to delete account"),
+            content: Text(result["message"] ?? S.of(context).FailedToDeleteAccount),
             backgroundColor: Colors.red,
           ),
         );

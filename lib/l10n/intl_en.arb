@@ -285,5 +285,19 @@
     "TakeAnotherLook" : "Take Another Look",
     "ThereAre" : "There are",
     "NewUpdates" : "new updates watiing You",
-    "CheckBackTodayForfreshResl": "Check back today for fresh real estate opportunities."
+    "CheckBackTodayForfreshResl": "Check back today for fresh real estate opportunities.",
+    
+    "DeleteAccount": "Delete Account",
+    "DeleteAccountTitle": "Delete Account",
+    "DeleteAccountConfirmation": "Are you absolutely sure you want to delete your account?",
+    "DeleteAccountWarning": "This action cannot be undone and will permanently delete:",
+    "DeleteAccountWarningItem1": "All your posts and property listings",
+    "DeleteAccountWarningItem2": "All your bookmarks",
+    "DeleteAccountWarningItem3": "Your subscription and payment history",
+    "DeleteAccountWarningItem4": "Your profile information and photos",
+    "DeleteAccountWarningItem5": "All associated data",
+    "DeleteAccountInfo": "You will be logged out immediately after deletion.",
+    "YesDeleteAccount": "Yes, Delete Account",
+    "AccountDeletedSuccessfully": "Account deleted successfully",
+    "FailedToDeleteAccount": "Failed to delete account"
 }

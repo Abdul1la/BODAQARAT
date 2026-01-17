@@ -267,6 +267,19 @@
     "TakeAnotherLook" : "ألقِ نظرة أخرى",
     "ThereAre" : "يوجد",
     "NewUpdates" : "تحديثات جديدة بانتظارك",
-    "CheckBackTodayForfreshResl": "عد اليوم للاطلاع على فرص عقارية جديدة."
+    "CheckBackTodayForfreshResl": "عد اليوم للاطلاع على فرص عقارية جديدة.",
     
+    "DeleteAccount": "حذف الحساب",
+    "DeleteAccountTitle": "حذف الحساب",
+    "DeleteAccountConfirmation": "هل أنت متأكد تماماً أنك تريد حذف حسابك؟",
+    "DeleteAccountWarning": "لا يمكن التراجع عن هذا الإجراء وسيتم حذف ما يلي نهائياً:",
+    "DeleteAccountWarningItem1": "جميع منشوراتك وقوائم العقارات",
+    "DeleteAccountWarningItem2": "جميع إشاراتك المرجعية",
+    "DeleteAccountWarningItem3": "تاريخ اشتراكك ومدفوعاتك",
+    "DeleteAccountWarningItem4": "معلومات ملفك الشخصي والصور",
+    "DeleteAccountWarningItem5": "جميع البيانات المرتبطة",
+    "DeleteAccountInfo": "سيتم تسجيل خروجك فوراً بعد الحذف.",
+    "YesDeleteAccount": "نعم، احذف الحساب",
+    "AccountDeletedSuccessfully": "تم حذف الحساب بنجاح",
+    "FailedToDeleteAccount": "فشل حذف الحساب"
 }

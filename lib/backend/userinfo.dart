@@ -90,14 +90,26 @@ Future<Map<String, dynamic>> deleteAccount(String username) async {
     
     final response = await http.delete(url);
     
-    final body = jsonDecode(response.body);
-    
-    if (response.statusCode == 200 && body["status"] == "success") {
-      return {"success": true, "message": body["message"] ?? "Account deleted successfully"};
+    if (response.statusCode == 200) {
+      final body = jsonDecode(response.body);
+      
+      if (body["status"] == "success") {
+        return {"success": true, "message": body["message"] ?? "Account deleted successfully"};
+      } else {
+        return {"success": false, "message": body["message"] ?? "Failed to delete account"};
+      }
     } else {
-      return {"success": false, "message": body["message"] ?? "Failed to delete account"};
+      // Handle non-200 status codes (HTTPException responses)
+      try {
+        final body = jsonDecode(response.body);
+        // FastAPI HTTPException returns "detail" field
+        final errorMessage = body["detail"] ?? body["message"] ?? "Server error occurred";
+        return {"success": false, "message": errorMessage};
+      } catch (_) {
+        return {"success": false, "message": "Server error: ${response.statusCode}"};
+      }
     }
   } catch (e) {
-    return {"success": false, "message": "Error: $e"};
+    return {"success": false, "message": "Network error: ${e.toString()}"};
   }
 }

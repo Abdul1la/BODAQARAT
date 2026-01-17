@@ -268,5 +268,19 @@
     "TakeAnotherLook" : "جارەکا دی سەحکێ",
     "ThereAre" : "هەنە",
     "NewUpdates" : "هندەک نووکرنێن نوو ل هیڤیا تەنە",
-    "CheckBackTodayForfreshResl": "ئەڤرۆ جارەکا دی سەحکێ بۆ دیتنا دەرفەتێن نوو یێن خانوبەران."
+    "CheckBackTodayForfreshResl": "ئەڤرۆ جارەکا دی سەحکێ بۆ دیتنا دەرفەتێن نوو یێن خانوبەران.",
+    
+    "DeleteAccount": "ژێبرنا هەژمارێ",
+    "DeleteAccountTitle": "ژێبرنا هەژمارێ",
+    "DeleteAccountConfirmation": "تە دڵنیای کو دڤێت هەژمارا خو ژێ ببەی؟",
+    "DeleteAccountWarning": "ئەڤ کارا نابیتە گەڕاندنەوە و ب تەواوی دێتە ژێبرن:",
+    "DeleteAccountWarningItem1": "هەموو پۆست و لیستێن عەقاری یێن تە",
+    "DeleteAccountWarningItem2": "هەموو ئەرشیفێن تە",
+    "DeleteAccountWarningItem3": "مێژووی بەشداری و پارەدانا تە",
+    "DeleteAccountWarningItem4": "زانیاری و وێنێن پرۆفایلا تە",
+    "DeleteAccountWarningItem5": "هەموو داتایێن پەیوەندیدار",
+    "DeleteAccountInfo": "پشتی ژێبرنێ دێتەوە بەرێ دەرچوون.",
+    "YesDeleteAccount": "بەلێ، هەژمارا ژێ ببە",
+    "AccountDeletedSuccessfully": "هەژمار ب سەرکەفتیانە هاتە ژێبرن",
+    "FailedToDeleteAccount": "ژێبرنا هەژمارێ سەرکەفتی نەبوو"
 }
