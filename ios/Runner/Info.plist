@@ -50,8 +50,7 @@
 			<string>en</string>
 			<string>ar</string>
 			<string>ps</string>
-			<string>ur</string>
-			...
+			<string>ur</string>			
 		</array>
 		<key>UIDeviceFamily</key>
 		<array>
