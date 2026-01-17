@@ -362,9 +362,9 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
           children: [
             const Icon(Icons.delete_outline, color: Color(0xffDC2626)),
             const SizedBox(width: 10),
-            Text(
-              S.of(context).DeleteAccount,
-              style: const TextStyle(
+            const Text(
+              "Delete Account",
+              style: TextStyle(
                 fontSize: 16,
                 color: Color(0xffDC2626),
                 fontWeight: FontWeight.w600,
@@ -397,10 +397,10 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
               ),
             ),
             const SizedBox(width: 12),
-            Expanded(
+            const Expanded(
               child: Text(
-                S.of(context).DeleteAccountTitle,
-                style: const TextStyle(
+                "Delete Account",
+                style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
                   color: Color(0xffDC2626),
@@ -413,18 +413,18 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              S.of(context).DeleteAccountConfirmation,
-              style: const TextStyle(
+            const Text(
+              "Are you absolutely sure you want to delete your account?",
+              style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 16,
                 color: Color(0xff111827),
               ),
             ),
             const SizedBox(height: 12),
-            Text(
-              S.of(context).DeleteAccountWarning,
-              style: const TextStyle(
+            const Text(
+              "This action cannot be undone and will permanently delete:",
+              style: TextStyle(
                 fontSize: 14,
                 color: Color(0xff6B7280),
               ),
@@ -435,11 +435,11 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  _buildWarningItem(S.of(context).DeleteAccountWarningItem1),
-                  _buildWarningItem(S.of(context).DeleteAccountWarningItem2),
-                  _buildWarningItem(S.of(context).DeleteAccountWarningItem3),
-                  _buildWarningItem(S.of(context).DeleteAccountWarningItem4),
-                  _buildWarningItem(S.of(context).DeleteAccountWarningItem5),
+                  _buildWarningItem("All your posts and property listings"),
+                  _buildWarningItem("All your bookmarks"),
+                  _buildWarningItem("Your subscription and payment history"),
+                  _buildWarningItem("Your profile information and photos"),
+                  _buildWarningItem("All associated data"),
                 ],
               ),
             ),
@@ -453,18 +453,18 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
                   color: const Color(0xffDC2626).withOpacity(0.2),
                 ),
               ),
-              child: Row(
+              child: const Row(
                 children: [
-                  const Icon(
+                  Icon(
                     Icons.info_outline,
                     color: Color(0xffDC2626),
                     size: 20,
                   ),
-                  const SizedBox(width: 8),
+                  SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      S.of(context).DeleteAccountInfo,
-                      style: const TextStyle(
+                      "You will be logged out immediately after deletion.",
+                      style: TextStyle(
                         fontSize: 13,
                         color: Color(0xffDC2626),
                         fontWeight: FontWeight.w500,
@@ -501,9 +501,9 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
               ),
             ),
             onPressed: () => Navigator.of(context).pop(true),
-            child: Text(
-              S.of(context).YesDeleteAccount,
-              style: const TextStyle(
+            child: const Text(
+              "Yes, Delete Account",
+              style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
               ),
@@ -564,10 +564,10 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
         
         // Show success message
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(S.of(context).AccountDeletedSuccessfully),
+          const SnackBar(
+            content: Text("Account deleted successfully"),
             backgroundColor: Colors.green,
-            duration: const Duration(seconds: 2),
+            duration: Duration(seconds: 2),
           ),
         );
         
@@ -581,7 +581,7 @@ class _OfficeAccountInfoState extends State<OfficeAccountInfo> {
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(result["message"] ?? S.of(context).FailedToDeleteAccount),
+            content: Text(result["message"] ?? "Failed to delete account"),
             backgroundColor: Colors.red,
           ),
         );
