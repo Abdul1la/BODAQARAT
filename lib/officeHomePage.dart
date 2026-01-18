@@ -1618,16 +1618,22 @@ class _MyAppState extends State<MyApp> {
                       color: Colors.white,
                     ),
                     onSelected: (String value) {
-                      widget.onChangeLocale(value);
+                      // Delay the locale change to allow menu to close properly
+                      Future.delayed(const Duration(milliseconds: 100), () {
+                        widget.onChangeLocale(value);
+                      });
                     },
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
                     elevation: 20,
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+                    offset: const Offset(0, 8),
                     itemBuilder: (BuildContext context) =>
                         <PopupMenuEntry<String>>[
                           PopupMenuItem<String>(
                             value: 'en',
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             child: Row(
                               children: [
                                 const Icon(
@@ -1641,6 +1647,7 @@ class _MyAppState extends State<MyApp> {
                           ),
                           PopupMenuItem<String>(
                             value: 'ar',
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             child: Row(
                               children: [
                                 const Icon(
@@ -1654,6 +1661,7 @@ class _MyAppState extends State<MyApp> {
                           ),
                           PopupMenuItem<String>(
                             value: 'ps',
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             child: Row(
                               children: [
                                 const Icon(
@@ -1667,6 +1675,7 @@ class _MyAppState extends State<MyApp> {
                           ),
                           PopupMenuItem<String>(
                             value: 'ur',
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             child: Row(
                               children: [
                                 const Icon(
